@@ -1,0 +1,465 @@
+item {
+    name: "akil",
+    id: 1,
+    display_name: "akil"
+}
+item {
+    name: "akil_agiz",
+    id: 2,
+    display_name: "akil_agiz"
+}
+item {
+    name: "aldatmak",
+    id: 3,
+    display_name: "aldatmak"
+}
+item {
+    name: "aldatmak_agiz",
+    id: 4,
+    display_name: "aldatmak_agiz"
+}
+item {
+    name: "aramak",
+    id: 5,
+    display_name: "aramak"
+}
+item {
+    name: "aramak_agiz",
+    id: 6,
+    display_name: "aramak_agiz"
+}
+item {
+    name: "asik olmak",
+    id: 7,
+    display_name: "asik olmak"
+}
+item {
+    name: "asik olmak_agiz",
+    id: 8,
+    display_name: "asik olmak_agiz"
+}
+item {
+    name: "beklemek",
+    id: 9,
+    display_name: "beklemek"
+}
+item {
+    name: "ben",
+    id: 10,
+    display_name: "ben"
+}
+item {
+    name: "ben_agiz",
+    id: 11,
+    display_name: "ben_agiz"
+}
+item {
+    name: "bilmek",
+    id: 12,
+    display_name: "bilmek"
+}
+item {
+    name: "bilmek_agiz",
+    id: 13,
+    display_name: "bilmek_agiz"
+}
+item {
+    name: "bir",
+    id: 14,
+    display_name: "bir"
+}
+item {
+    name: "bir_agiz",
+    id: 15,
+    display_name: "bir_agiz"
+}
+item {
+    name: "birakmak",
+    id: 16,
+    display_name: "birakmak"
+}
+item {
+    name: "birakmak_agiz",
+    id: 17,
+    display_name: "birakmak_agiz"
+}
+item {
+    name: "boyle",
+    id: 18,
+    display_name: "boyle"
+}
+item {
+    name: "boyle_agiz",
+    id: 19,
+    display_name: "boyle_agiz"
+}
+item {
+    name: "demek",
+    id: 20,
+    display_name: "demek"
+}
+item {
+    name: "demek_agiz",
+    id: 21,
+    display_name: "demek_agiz"
+}
+item {
+    name: "donmek",
+    id: 22,
+    display_name: "donmek"
+}
+item {
+    name: "donmek_agiz",
+    id: 23,
+    display_name: "donmek_agiz"
+}
+item {
+    name: "dunya",
+    id: 24,
+    display_name: "dunya"
+}
+item {
+    name: "dunya_agiz",
+    id: 25,
+    display_name: "dunya_agiz"
+}
+item {
+    name: "duymak",
+    id: 26,
+    display_name: "duymak"
+}
+item {
+    name: "duymak_agiz",
+    id: 27,
+    display_name: "duymak_agiz"
+}
+item {
+    name: "el",
+    id: 28,
+    display_name: "el"
+}
+item {
+    name: "el_agiz",
+    id: 29,
+    display_name: "el_agiz"
+}
+item {
+    name: "fikir",
+    id: 30,
+    display_name: "fikir"
+}
+item {
+    name: "fikir_agiz",
+    id: 31,
+    display_name: "fikir_agiz"
+}
+item {
+    name: "gelmek",
+    id: 32,
+    display_name: "gelmek"
+}
+item {
+    name: "gelmek_agiz",
+    id: 33,
+    display_name: "gelmek_agiz"
+}
+item {
+    name: "gizli",
+    id: 34,
+    display_name: "gizli"
+}
+item {
+    name: "gizli_agiz",
+    id: 35,
+    display_name: "gizli_agiz"
+}
+item {
+    name: "goz",
+    id: 36,
+    display_name: "goz"
+}
+item {
+    name: "goz_agiz",
+    id: 37,
+    display_name: "goz_agiz"
+}
+item {
+    name: "gun",
+    id: 38,
+    display_name: "gun"
+}
+item {
+    name: "gun_agiz",
+    id: 39,
+    display_name: "gun_agiz"
+}
+item {
+    name: "guzel",
+    id: 40,
+    display_name: "guzel"
+}
+item {
+    name: "guzel_agiz",
+    id: 41,
+    display_name: "guzel_agiz"
+}
+item {
+    name: "haber",
+    id: 42,
+    display_name: "haber"
+}
+item {
+    name: "haber_agiz",
+    id: 43,
+    display_name: "haber_agiz"
+}
+item {
+    name: "hep",
+    id: 44,
+    display_name: "hep"
+}
+item {
+    name: "hep_agiz",
+    id: 45,
+    display_name: "hep_agiz"
+}
+item {
+    name: "her",
+    id: 46,
+    display_name: "her"
+}
+item {
+    name: "her_agiz",
+    id: 47,
+    display_name: "her_agiz"
+}
+item {
+    name: "hic",
+    id: 48,
+    display_name: "hic"
+}
+item {
+    name: "hic_agiz",
+    id: 49,
+    display_name: "hic_agiz"
+}
+item {
+    name: "insafsiz",
+    id: 50,
+    display_name: "insafsiz"
+}
+item {
+    name: "insafsiz_agiz",
+    id: 51,
+    display_name: "insafsiz_agiz"
+}
+item {
+    name: "kalmak",
+    id: 52,
+    display_name: "kalmak"
+}
+item {
+    name: "kalmak_agiz",
+    id: 53,
+    display_name: "kalmak_agiz"
+}
+item {
+    name: "karsi",
+    id: 54,
+    display_name: "karsi"
+}
+item {
+    name: "karsi_agiz",
+    id: 55,
+    display_name: "karsi_agiz"
+}
+item {
+    name: "kim",
+    id: 56,
+    display_name: "kim"
+}
+item {
+    name: "kim_agiz",
+    id: 57,
+    display_name: "kim_agiz"
+}
+item {
+    name: "kimse",
+    id: 58,
+    display_name: "kimse"
+}
+item {
+    name: "kimse_agiz",
+    id: 59,
+    display_name: "kimse_agiz"
+}
+item {
+    name: "korkundan",
+    id: 60,
+    display_name: "korkundan"
+}
+item {
+    name: "korkundan_agiz",
+    id: 61,
+    display_name: "korkundan_agiz"
+}
+item {
+    name: "nasil",
+    id: 62,
+    display_name: "nasil"
+}
+item {
+    name: "nasil_agiz",
+    id: 63,
+    display_name: "nasil_agiz"
+}
+item {
+    name: "ne",
+    id: 64,
+    display_name: "ne"
+}
+item {
+    name: "ne_agiz",
+    id: 65,
+    display_name: "ne_agiz"
+}
+item {
+    name: "olmak",
+    id: 66,
+    display_name: "olmak"
+}
+item {
+    name: "olmak_agiz",
+    id: 67,
+    display_name: "olmak_agiz"
+}
+item {
+    name: "sakin",
+    id: 68,
+    display_name: "sakin"
+}
+item {
+    name: "sakin_agiz",
+    id: 69,
+    display_name: "sakin_agiz"
+}
+item {
+    name: "sanmak",
+    id: 70,
+    display_name: "sanmak"
+}
+item {
+    name: "sanmak_agiz",
+    id: 71,
+    display_name: "sanmak_agiz"
+}
+item {
+    name: "sen",
+    id: 72,
+    display_name: "sen"
+}
+item {
+    name: "sen_agiz",
+    id: 73,
+    display_name: "sen_agiz"
+}
+item {
+    name: "sevmek",
+    id: 74,
+    display_name: "sevmek"
+}
+item {
+    name: "sevmek_agiz",
+    id: 75,
+    display_name: "sevmek_agiz"
+}
+item {
+    name: "sonra",
+    id: 76,
+    display_name: "sonra"
+}
+item {
+    name: "sonra_agiz",
+    id: 77,
+    display_name: "sonra_agiz"
+}
+item {
+    name: "sormak",
+    id: 78,
+    display_name: "sormak"
+}
+item {
+    name: "sormak_agiz",
+    id: 79,
+    display_name: "sormak_agiz"
+}
+item {
+    name: "terk etmek",
+    id: 80,
+    display_name: "terk etmek"
+}
+item {
+    name: "terk etmek_agiz",
+    id: 81,
+    display_name: "terk etmek_agiz"
+}
+item {
+    name: "unutmak",
+    id: 82,
+    display_name: "unutmak"
+}
+item {
+    name: "unutmak_agiz",
+    id: 83,
+    display_name: "unutmak_agiz"
+}
+item {
+    name: "yalniz",
+    id: 84,
+    display_name: "yalniz"
+}
+item {
+    name: "yalniz_agiz",
+    id: 85,
+    display_name: "yalniz_agiz"
+}
+item {
+    name: "yan",
+    id: 86,
+    display_name: "yan"
+}
+item {
+    name: "yan_agiz",
+    id: 87,
+    display_name: "yan_agiz"
+}
+item {
+    name: "yapmak",
+    id: 88,
+    display_name: "yapmak"
+}
+item {
+    name: "yapmak_agiz",
+    id: 89,
+    display_name: "yapmak_agiz"
+}
+item {
+    name: "yer",
+    id: 90,
+    display_name: "yer"
+}
+item {
+    name: "yer_agiz",
+    id: 91,
+    display_name: "yer_agiz"
+}
+item {
+    name: "yol",
+    id: 92,
+    display_name: "yol"
+}
+item {
+    name: "yol_agiz",
+    id: 93,
+    display_name: "yol_agiz"
+}
