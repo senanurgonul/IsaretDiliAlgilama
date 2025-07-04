@@ -1,49 +1,46 @@
-# 🤟 IsaretDiliAlgilama
+# 🤟 SignLanguageDetection
 
-Bu proje, MFÖ'nün **"Ele Güne Karşı"** şarkı sözlerinin işaret dili ve ağız hareketleri ile görselleştirilmesini amaçlayan bir **makine görmesi** çalışmasıdır. Geliştirilen sistem, işaret dilini nesne tanıma yoluyla algılar ve kelime bazlı tahminlerde bulunur.
-
----
-
-## 🎯 Proje Amacı
-
-Amaç, işaret dili hareketlerini içeren bir görsel veri seti oluşturmak ve bu veriyi kullanarak nesne tespiti yoluyla işaret dilinin bilgisayar tarafından anlaşılmasını sağlamaktır.
+This project is a **computer vision** application designed to visualize the lyrics of MFÖ's song **"Ele Güne Karşı"** through sign language and lip movements. The developed system detects sign language gestures using object detection and makes word-level predictions.
 
 ---
 
-## 🧠 Kullanılan Teknolojiler
+## 🎯 Project Objective
 
-- 📦 **TensorFlow 2** – Model eğitimi ve tahmin için
-- 🎯 **TensorFlow Object Detection API** – Nesne tanıma mimarisi
-- 🗂️ **TFRecord** – Veri seti formatı
-- 🧰 **Roboflow** – Görüntü etiketleme ve veri seti yönetimi
-- 🖼️ **1292 görsel** – 93 farklı kelimeye ait işaret ve ağız hareketleri
+The goal is to create a visual dataset containing sign language gestures and enable computer interpretation of sign language using object detection techniques.
 
 ---
 
-## 🧪 Yöntemler
+## 🧠 Technologies Used
 
-1. **Veri Seti Oluşturma:**
-   - MFÖ'nün "Ele Güne Karşı" şarkı sözlerindeki kelimeler için 1292 adet görsel çekildi.
-   - 93 farklı işaret dili ve ağız hareketi sınıfı belirlendi.
-   - Roboflow üzerinden tüm görseller manuel olarak etiketlendi.
-
-2. **Model Eğitimi:**
-   - NickNochnack'ın [Real-Time Object Detection](https://github.com/nicknochnack/RealTimeObjectDetection) reposu temel alındı.
-   - Model pipeline'ı özelleştirildi (batch size, öğrenme oranı vb.)
-   - Eğitim: %70 eğitim, %20 doğrulama, %10 test oranıyla bölündü.
-
-3. **Model Testi:**
-   - Örnek çıktı: “sormak” kelimesi %76 doğrulukla tahmin edildi.
-   - Model temel düzeyde başarılı sonuçlar verdi.
+- 📦 **TensorFlow 2** – For model training and prediction  
+- 🎯 **TensorFlow Object Detection API** – For object detection architecture  
+- 🗂️ **TFRecord** – Dataset format  
+- 🧰 **Roboflow** – For image labeling and dataset management  
+- 🖼️ **1,292 images** – Sign and lip gestures for 93 different words
 
 ---
 
-## 🖥️ Kullanım
+## 🧪 Methods
 
-1. TensorFlow ve Object Detection API kurulumu yapılır.
-2. Roboflow’dan veri indirilerek `TFRecord` formatında yerleştirilir.
-3. `pipeline.config` dosyası veri yollarına göre özelleştirilir.
-4. Model eğitilir ve sonuçlar analiz edilir.
+1. **Dataset Creation:**
+   - 1,292 images were captured for the lyrics of MFÖ’s “Ele Güne Karşı”  
+   - 93 different sign and lip movement classes were defined  
+   - All images were manually labeled using Roboflow
+
+2. **Model Training:**
+   - Based on NickNochnack’s [Real-Time Object Detection](https://github.com/nicknochnack/RealTimeObjectDetection) repository  
+   - Customized pipeline (batch size, learning rate, etc.)  
+   - Data split: 70% training, 20% validation, 10% testing
+
+3. **Model Testing:**
+   - Example output: “sormak” predicted with 76% accuracy  
+   - Model produced reasonably successful basic results
 
 ---
 
+## 🖥️ Usage
+
+1. Install TensorFlow and the Object Detection API  
+2. Download the dataset from Roboflow and convert it to `TFRecord` format  
+3. Customize the `pipeline.config` file with your dataset paths  
+4. Train the model and analyze the results
